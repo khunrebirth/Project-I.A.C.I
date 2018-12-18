@@ -10,7 +10,6 @@ http://iaci-th.com/
 * Javascript
 * Bootstrap
 * Jquery
-* [Authentication with JWT Token](https://github.com/tymondesigns/jwt-auth)
 
 ## Installation:
 -
