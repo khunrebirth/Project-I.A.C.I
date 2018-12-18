@@ -21,6 +21,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]>
     <script src="js/respond.js"></script><![endif]-->
+
+    <!--Css Custom-->
+    <style>
+        .about-section .owl-nav {
+            display: none;
+        }
+
+        .about-section .owl-dots{
+            text-align: center;
+        }
+
+        .about-section .owl-dots .owl-dot{
+            position:relative;
+            width:10px;
+            height:8px;
+            margin:0px 5px;
+            display:inline-block;
+            border-radius:50%;
+            background-color:#cccccc;
+            transition:all 0.3s ease;
+            -moz-transition:all 0.3s ease;
+            -webkit-transition:all 0.3s ease;
+            -ms-transition:all 0.3s ease;
+            -o-transition:all 0.3s ease;
+        }
+
+        .about-section .owl-dots .owl-dot:hover,
+        .about-section .owl-dots .owl-dot.active{
+            position:relative;
+            width:22px;
+            height:8px;
+            border-radius:10px;
+            background-color:#ee2d50;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,7 +66,7 @@
         <div class="preloader"></div>
 
         <!-- Main Header-->
-        <header class="main-header">
+        <header class="main-header header-style-two">
 
             <!--Header-Upper-->
             <div class="header-upper">
@@ -39,7 +74,7 @@
                     <div class="clearfix">
 
                         <div class="pull-left logo-box">
-                            <div class="logo"><a href="index.html"><img src="images/logo-web-iaci.png" alt="" title=""></a>
+                            <div class="logo"><a href="index.html"><img src="images/logo-web-iaci(w).png" alt="" title=""></a>
                             </div>
                         </div>
 
@@ -62,8 +97,6 @@
                                         <li class="current"><a href="index.html">Home</a></li>
                                         <li><a href="service.html">Service</a></li>
                                         <li><a href="about-us.html">About us</a></li>
-                                        <li><a href="new&event.html">New & Event</a></li>
-                                        <li><a href="customer-list.html">Customer List</a></li>
                                         <li><a href="location.html">Location</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
@@ -103,8 +136,6 @@
                                     <li class="current"><a href="index.html">Home</a></li>
                                     <li><a href="service.html">Service</a></li>
                                     <li><a href="about-us.html">About us</a></li>
-                                    <li><a href="new&event.html">New & Event</a></li>
-                                    <li><a href="customer-list.html">Customer List</a></li>
                                     <li><a href="location.html">Location</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
@@ -120,30 +151,23 @@
         <!--End Main Header -->
 
         <!--Main Slider-->
-        <section class="main-slider">
+        <section class="main-slider" style="box-shadow: 0 3px 40px 3px rgba(0, 0, 0, 0.2)">
 
             <div class="main-slider-carousel owl-carousel owl-theme">
 
                 <div class="slide" style="background-image:url(images/cover-1.jpg)">
                     <div class="auto-container">
-                        <div class="content">
-                            <h3>Get The Success You Need</h3>
-                            <h2>Business Growth</h2>
-                            <div class="text">We are working with thousands of business companies around <br> the world &
-                                delivering ideas for your business
-                            </div>
+                        <div class="content centered">
+                            <h3 class="style-three">At IACI</h3>
+                            <h2 class="style-two" style="font-size: 42px;">We know the importance of taking care of our customers customer taking to next level</h2>
                         </div>
                     </div>
                 </div>
 
                 <div class="slide" style="background-image:url(images/cover-2.jpg)">
                     <div class="auto-container">
-                        <div class="content">
-                            <h3 class="style-two">Get The Success You Need</h3>
-                            <h2>We Accomplish</h2>
-                            <div class="text">We are working with thousands of business companies around <br> the world &
-                                delivering ideas for your business
-                            </div>
+                        <div class="content centered">
+                            <h2 class="style-two" style="font-size: 47px;">Good Knowledge + Good Communication <br>=<br> Good Business</h2>
                         </div>
                     </div>
                 </div>
@@ -162,44 +186,20 @@
                 <div class="row clearfix">
 
                     <!--Services Block Four-->
-                    <div class="services-block-four col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="icon-box">
-                                <span class="icon flaticon-path"></span>
-                            </div>
-                            <h3><a href="market-research.html">Service 1</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, consequatur
-                                earum eligendi est et facere, in iure nobis perferendis possimus quis quisquam sit ut
-                                voluptate voluptatibus.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Services Block Four-->
-                    <div class="services-block-four col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="icon-box">
-                                <span class="icon flaticon-startup"></span>
-                            </div>
-                            <h3><a href="market-research.html">Service 2</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, consequatur
-                                earum eligendi est et facere, in iure nobis perferendis possimus quis quisquam sit ut
-                                voluptate voluptatibus.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Services Block Four-->
-                    <div class="services-block-four col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="icon-box">
-                                <span class="icon flaticon-line-graph"></span>
-                            </div>
-                            <h3><a href="market-research.html">Service 3</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, consequatur
-                                earum eligendi est et facere, in iure nobis perferendis possimus quis quisquam sit ut
-                                voluptate voluptatibus.
-                            </div>
+                    <div class="services-block-four col-lg-12 col-md-12 col-sm-12">
+                        <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="text-align: left;">
+                            <ul>
+                                <li style="list-style: outside; font-size: 16px;">Full cleaning and repair depot audit service, operational, safety and environmental. Over 200 questions with point scoring system, resulting in clear and simplified depot evaluation</li>
+                                <li style="list-style: outside; font-size: 16px;">Travel to tank location to investigate damages to your tank container. Full independent report service, with accurate repair advice to ITCO standards.</li>
+                                <li style="list-style: outside; font-size: 16px;">Tank to tank cargo transfer SOP experience.</li>
+                                <li style="list-style: outside; font-size: 16px;">Claims management system of all major and minor damages, improper cleaning/repair and re-charge claims.</li>
+                                <li style="list-style: outside; font-size: 16px;">Relay accurate reports and impartial advice with your insurance company.</li>
+                                <li style="list-style: outside; font-size: 16px;">Technical advisor at tank location whether to assist with loading or discharge.</li>
+                                <li style="list-style: outside; font-size: 16px;">From feasibility study to full design and project management of new cleaning and repair stations.</li>
+                                <li style="list-style: outside; font-size: 16px;">Complete depot management software integration system for tank cleaning and repair terminals.</li>
+                                <li style="list-style: outside; font-size: 16px;">Complete set of training seminars from “Industry Awareness” to “IMDG Regulations”</li>
+                                <li style="list-style: outside; font-size: 16px;">Local surveying service coming soon.</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -222,12 +222,10 @@
                                     <h2>A<span class="theme_color">bout us</span></h2>
                                 </div>
                             </div>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                                consequuntur dicta eveniet harum nobis quam quos saepe tempora temporibus totam. Ipsa
-                                placeat sint sunt. Asperiores aspernatur maiores molestiae provident voluptate?. <br><br>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                                consequuntur dicta eveniet harum nobis quam quos saepe tempora temporibus totam. Ipsa
-                                placeat sint sunt. Asperiores aspernatur maiores molestiae provident voluptate?. <br>
+                            <div class="text">
+                                IACI was incorporated in November 2018 by its founder Ian Taylor with over 30 years’ experience in the cleaning, testing and repairing of ISO tank containers and road barrels across Europe and Asia.
+                                <br><br>
+                                Ian saw that some of the links between the operators, cleaning stations and consignees seemed to be missing. Hence, IACI was formed with the clear belief that the key to good business is good communication.   With this in mind, and his insatiable appetite for problem solving has made IACI a unique service for Tank Owners / Operators, Cleaning and Repair Stations and Consignees alike. <br>
                             </div>
                         </div>
                     </div>
@@ -236,13 +234,80 @@
                     <div class="video-column col-lg-7 col-md-12 col-sm-12">
                         <div class="inner-column wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
 
-                            <!--Video Box-->
-                            <div class="video-box">
-                                <figure class="image">
-                                    <img src="images/resource/video-img.jpg" alt="">
-                                </figure>
-                                <a href="https://www.youtube.com/watch?v=kxPCFljwJws"
-                                   class="lightbox-image overlay-box"><span class="flaticon-arrow"></span></a>
+                            <div class="single-item-carousel owl-carousel owl-theme">
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/1.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/2.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/3.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/4.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/5.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/7.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/8.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/9.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
 
                         </div>
@@ -262,22 +327,13 @@
                     <div class="inner-box">
                         <div class="clearfix">
 
-                            <!--Image Column-->
-                            <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                                <div class="inner-column">
-                                    <div class="image">
-                                        <img src="images/resource/news-2.jpg" alt=""/>
-                                        <a href="blog-single.html" class="arrow-box"><span class="fa fa-angle-right"></span></a>
-                                    </div>
-                                </div>
-                            </div>
                             <!--Content Column-->
-                            <div class="content-column col-lg-6 col-md-12 col-sm-12">
-                                <div class="inner-column">
-                                    <div class="sec-title centered">
-                                        <h2>M<span class="theme_color">ission</span></h2>
+                            <div class="content-column col-lg-12 col-md-12 col-sm-12">
+                                <div class="inner-column centered">
+                                    <div class="sec-title">
+                                        <h2>O<span class="theme_color">UR MISSION</span></h2>
                                     </div>
-                                    <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comdo consequat.</div>
+                                    <div class="text">Is to have a family team that cares, not only for our customers, but our customers customer.</div>
                                 </div>
                             </div>
 
@@ -290,23 +346,13 @@
                     <div class="inner-box">
                         <div class="clearfix">
 
-                            <!--Image Column-->
-                            <div class="image-column align-right col-lg-6 col-md-12 col-sm-12">
-                                <div class="inner-column">
-                                    <div class="image">
-                                        <img src="images/resource/news-3.jpg" alt=""/>
-                                        <a href="blog-single.html" class="arrow-box"><span class="fa fa-angle-right"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-
                             <!--Content Column-->
-                            <div class="content-column align-left col-lg-6 col-md-12 col-sm-12">
-                                <div class="inner-column">
-                                    <div class="sec-title centered">
+                            <div class="content-column align-left col-lg-12 col-md-12 col-sm-12">
+                                <div class="inner-column centered">
+                                    <div class="sec-title">
                                         <h2>C<span class="theme_color">ore Values</span></h2>
                                     </div>
-                                    <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comdo consequat.</div>
+                                    <div class="text">Honesty, integrity and above all, is to give the best advise to keep your tanks moving in the most cost-effective way possible with the least environmental impact. If they don’t move, you don’t make money.</div>
                                 </div>
                             </div>
 
@@ -318,223 +364,32 @@
         </section>
         <!--End Mission Statement & Core Value-->
 
-        <!--New & Event Section-->
-        <section class="news-section">
-            <div class="auto-container">
-                <!--Sec Title-->
-                <div class="sec-title centered">
-                    <h2>N<span class="theme_color">ew & Event</span></h2>
-                </div>
-                <div class="row clearfix">
-
-                    <!--Blocks Column-->
-                    <div class="blocks-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner-column">
-
-                            <!--News Block-->
-                            <div class="news-block">
-                                <div class="inner-box">
-                                    <ul class="post-info">
-                                        <li>SEPtember 23, 2018</li>
-                                        <li>Consultant</li>
-                                    </ul>
-                                    <h3><a href="blog-single.html">Consecter elit duied aiusmod tempor didunt labore dolory</a></h3>
-                                </div>
-                            </div>
-
-                            <!--News Block-->
-                            <div class="news-block">
-                                <div class="inner-box">
-                                    <ul class="post-info">
-                                        <li>august 25, 2018</li>
-                                        <li>finance</li>
-                                    </ul>
-                                    <h3><a href="blog-single.html">Ipsum dolor sit amet adipisicing elit, dolore magns aliqua enim </a></h3>
-                                </div>
-                            </div>
-
-                            <!--News Block-->
-                            <div class="news-block">
-                                <div class="inner-box">
-                                    <ul class="post-info">
-                                        <li>SEPtember 23, 2018</li>
-                                        <li>business</li>
-                                    </ul>
-                                    <h3><a href="blog-single.html">Sunt in culpa qui officia deserunt mollit animed kyest laborum</a></h3>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!--Image Column-->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner-column wow fadeIn animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-                            <div class="image">
-                                <img src="images/resource/news-1.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!--New & Event Section-->
-
-        <!--Customer List Section-->
-        <section class="services-section-two" style="padding-top: 100px;">
-            <div class="outer-container">
-                <div class="sec-title centered">
-                    <h2>C<span class="theme_color">ustomer List</span></h2>
-                </div>
-                <div class="four-item-carousel owl-carousel owl-theme">
-
-                    <!--Service Block Two-->
-                    <div class="services-block-two">
-                        <div class="inner-box">
-                            <div class="image-layer" style="background-image:url(images/resource/service-1.jpg);"></div>
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="icon-box">
-                                            <span class="icon flaticon-user-3"></span>
-                                        </div>
-                                        <h3><a href="#">Customer List 1</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem itaque, magni nesciunt sunt ullam voluptates.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Service Block Two-->
-                    <div class="services-block-two pink">
-                        <div class="inner-box">
-                            <div class="image-layer" style="background-image:url(images/resource/service-2.jpg);"></div>
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="icon-box">
-                                            <span class="icon flaticon-user-3"></span>
-                                        </div>
-                                        <h3><a href="#">Customer List 2</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem itaque, magni nesciunt sunt ullam voluptates.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Service Block Two-->
-                    <div class="services-block-two blue">
-                        <div class="inner-box">
-                            <div class="image-layer" style="background-image:url(images/resource/service-3.jpg);"></div>
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="icon-box">
-                                            <span class="icon flaticon-user-3"></span>
-                                        </div>
-                                        <h3><a href="#">Customer List 3</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem itaque, magni nesciunt sunt ullam voluptates.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Service Block Two-->
-                    <div class="services-block-two">
-                        <div class="inner-box">
-                            <div class="image-layer" style="background-image:url(images/resource/service-1.jpg);"></div>
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="icon-box">
-                                            <span class="icon flaticon-user-3"></span>
-                                        </div>
-                                        <h3><a href="#">Customer List 4</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem itaque, magni nesciunt sunt ullam voluptates.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Service Block Two-->
-                    <div class="services-block-two pink">
-                        <div class="inner-box">
-                            <div class="image-layer" style="background-image:url(images/resource/service-2.jpg);"></div>
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="icon-box">
-                                            <span class="icon flaticon-user-3"></span>
-                                        </div>
-                                        <h3><a href="#">Customer List 5</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem itaque, magni nesciunt sunt ullam voluptates.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Service Block Two-->
-                    <div class="services-block-two blue">
-                        <div class="inner-box">
-                            <div class="image-layer" style="background-image:url(images/resource/service-3.jpg);"></div>
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="icon-box">
-                                            <span class="icon flaticon-user-3"></span>
-                                        </div>
-                                        <h3><a href="#">Customer List 6</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem itaque, magni nesciunt sunt ullam voluptates.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!--End Customer List Section-->
-
-        <!--Location Section-->
-        <section class="services-title-box">
-            <div class="auto-container">
-                <!--Title Box-->
-                <div class="title-box">
-                    <div class="sec-title centered">
-                        <h2>L<span class="theme_color">ocation</span></h2>
-                    </div>
-                    <div class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis consectetur deleniti dolor dolorem dolores explicabo ipsam iure minus nam nostrum nulla obcaecati odit sequi unde, vitae voluptates! At, atque.
-                        <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolorum exercitationem fugit harum illum, in incidunt itaque molestiae nemo, placeat quas quidem reiciendis? Distinctio dolorum maiores numquam quaerat quia quis.
-                        <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolorum exercitationem fugit harum illum, in incidunt itaque molestiae nemo, placeat quas quidem reiciendis? Distinctio dolorum maiores numquam quaerat quia quis.
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Location Section-->
-
         <!--Contact Section-->
         <section class="fluid-section-two">
             <div class="outer-container clearfix">
 
                 <!--Image Column-->
                 <div class="image-column" style="background-image:url(images/resource/image-2.jpg);">
-                    <figure class="image-box"><img src="images/resource/image-2.jpg" alt=""></figure>
+                    <!--Map Section-->
+                    <div class="map-section">
+                        <div class="auto-container" style="padding: 0;">
+                            <!--Map Outer-->
+                            <div class="map-outer">
+                                <!--Map Canvas-->
+                                <div class="map-canvas"
+                                     data-zoom="10"
+                                     data-lat="12.946580000000001"
+                                     data-lng="100.991238"
+                                     data-type="roadmap"
+                                     data-hue="#ffc400"
+                                     data-title="INDEPENDENT AUDIT & CLAIM INSPECTORAT CO, LTD"
+                                     data-icon-path="images/icons/map-marker.png"
+                                     data-content="66 / 6 PONG SUB DISTRICT, BANGLAMUNG, CHONBURI 20150">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Map Section-->
                 </div>
 
                 <!--Content Column-->
@@ -547,15 +402,21 @@
 
                         <div class="feature-block-two alternate">
                             <div class="inner-box">
-                                <h3><a href="#">Contact 1</a></h3>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque error esse magni necessitatibus odit qui quod sint vitae! Animi culpa id impedit magni nulla quia quibusdam! A excepturi iure repellendus.</div>
+                                <h3><a href="#">Prapatosorn Nongpayak (Kob)</a></h3>
+                                <div class="text">
+                                    Email: prapatsorn@iaci-th.com <br>
+                                    Telephone: +66 (0) 82 6486720
+                                </div>
                             </div>
                         </div>
 
                         <div class="feature-block-two alternate">
                             <div class="inner-box">
-                                <h3><a href="#">Contact 2</a></h3>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab explicabo laborum libero, maxime, minima, modi nesciunt nisi officiis possimus quidem ratione sed tenetur vel voluptate voluptates. Fugiat id iste qui.</div>
+                                <h3><a href="#">Ian Taylor</a></h3>
+                                <div class="text">
+                                    Email: ian@iaci-th.com <br>
+                                    Telephone: +66 (0) 92 8166037
+                                </div>
                             </div>
                         </div>
 
@@ -583,19 +444,9 @@
                                         <div class="logo">
                                             <a href="index.html"><img src="images/logo-web-iaci-footer.png" alt=""/></a>
                                         </div>
-                                        <div class="text">164 / 15 Chonburi, Thailand</div>
+                                        <div class="text">66 / 6 PONG SUB DISTRICT, BANGLAMUNG, CHONBURI 20150</div>
                                         <ul class="list-style-one">
-                                            <li><span>Phone:</span> 063-xxx-xxxx</li>
-                                            <li><span>Email:</span> admin@iaci-th.com</li>
-                                            <li><span>Working Hours:</span> Mon - Fri: 9am - 6pm</li>
-                                        </ul>
-                                        <!--Social Icon One-->
-                                        <ul class="social-icon-one">
-                                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-vimeo"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                            <li><span>Working Office:</span> Mon - Fri: 9am - 7pm</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -609,7 +460,7 @@
                 <div class="auto-container text-center">
                     <div class="row clearfix">
                         <div class="column col-md-12 col-sm-12 col-xs-12">
-                            <div class="copyright">Copyrights &copy; 2018 INDEPENDENT AUDIT & CLAIM INSPECTORAT. All Rights Reserved.</div>
+                            <div class="copyright">Copyrights &copy; 2018 INDEPENDENT AUDIT & CLAIM INSPECTORAT CO, LTD. All Rights Reserved.</div>
                         </div>
                     </div>
                 </div>
@@ -632,6 +483,11 @@
     <script src="js/slick.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/script.js"></script>
+
+    <!--Google Map APi Key-->
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyDH0zu0h2PAuiWi_xi_KgMX3YHOYgiOf5k"></script>
+    <script src="js/map-script.js"></script>
+    <!--End Google Map APi-->
 
 </body>
 </html>

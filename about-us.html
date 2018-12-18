@@ -21,6 +21,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]>
     <script src="js/respond.js"></script><![endif]-->
+
+    <!--Css Custom-->
+    <style>
+        .about-section .owl-nav {
+            display: none;
+        }
+
+        .about-section .owl-dots{
+            text-align: center;
+        }
+
+        .about-section .owl-dots .owl-dot{
+            position:relative;
+            width:10px;
+            height:8px;
+            margin:0px 5px;
+            display:inline-block;
+            border-radius:50%;
+            background-color:#cccccc;
+            transition:all 0.3s ease;
+            -moz-transition:all 0.3s ease;
+            -webkit-transition:all 0.3s ease;
+            -ms-transition:all 0.3s ease;
+            -o-transition:all 0.3s ease;
+        }
+
+        .about-section .owl-dots .owl-dot:hover,
+        .about-section .owl-dots .owl-dot.active{
+            position:relative;
+            width:22px;
+            height:8px;
+            border-radius:10px;
+            background-color:#ee2d50;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,7 +66,7 @@
         <div class="preloader"></div>
 
         <!-- Main Header-->
-        <header class="main-header">
+        <header class="main-header header-style-two">
 
             <!--Header-Upper-->
             <div class="header-upper">
@@ -39,7 +74,7 @@
                     <div class="clearfix">
 
                         <div class="pull-left logo-box">
-                            <div class="logo"><a href="index.html"><img src="images/logo-web-iaci.png" alt="" title=""></a>
+                            <div class="logo"><a href="index.html"><img src="images/logo-web-iaci(w).png" alt="" title=""></a>
                             </div>
                         </div>
 
@@ -60,8 +95,6 @@
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="service.html">Service</a></li>
                                         <li class="current"><a href="about-us.html">About us</a></li>
-                                        <li><a href="new&event.html">New & Event</a></li>
-                                        <li><a href="customer-list.html">Customer List</a></li>
                                         <li><a href="location.html">Location</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
@@ -100,8 +133,6 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="service.html">Service</a></li>
                                     <li class="current"><a href="about-us.html">About us</a></li>
-                                    <li><a href="new&event.html">New & Event</a></li>
-                                    <li><a href="customer-list.html">Customer List</a></li>
                                     <li><a href="location.html">Location</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
@@ -117,7 +148,7 @@
         <!--End Main Header -->
 
         <!--Page Title-->
-        <section class="page-title" style="background-image:url(images/about-page.jpg)">
+        <section class="page-title" style="background-image:url(images/cover-1.jpg)">
             <div class="auto-container">
                 <h1>About us Page</h1>
             </div>
@@ -138,12 +169,10 @@
                                     <h2>A<span class="theme_color">bout us</span></h2>
                                 </div>
                             </div>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                                consequuntur dicta eveniet harum nobis quam quos saepe tempora temporibus totam. Ipsa
-                                placeat sint sunt. Asperiores aspernatur maiores molestiae provident voluptate?. <br><br>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                                consequuntur dicta eveniet harum nobis quam quos saepe tempora temporibus totam. Ipsa
-                                placeat sint sunt. Asperiores aspernatur maiores molestiae provident voluptate?. <br>
+                            <div class="text">
+                                IACI was incorporated in November 2018 by its founder Ian Taylor with over 30 years’ experience in the cleaning, testing and repairing of ISO tank containers and road barrels across Europe and Asia.
+                                <br><br>
+                                Ian saw that some of the links between the operators, cleaning stations and consignees seemed to be missing. Hence, IACI was formed with the clear belief that the key to good business is good communication.   With this in mind, and his insatiable appetite for problem solving has made IACI a unique service for Tank Owners / Operators, Cleaning and Repair Stations and Consignees alike. <br>
                             </div>
                         </div>
                     </div>
@@ -152,13 +181,80 @@
                     <div class="video-column col-lg-7 col-md-12 col-sm-12">
                         <div class="inner-column wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
 
-                            <!--Video Box-->
-                            <div class="video-box">
-                                <figure class="image">
-                                    <img src="images/resource/video-img.jpg" alt="">
-                                </figure>
-                                <a href="https://www.youtube.com/watch?v=kxPCFljwJws"
-                                   class="lightbox-image overlay-box"><span class="flaticon-arrow"></span></a>
+                            <div class="single-item-carousel owl-carousel owl-theme">
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/1.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/2.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/3.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/4.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/5.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/7.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/8.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Story Block-->
+                                <div class="story-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="New%20folder/9.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
 
                         </div>
@@ -186,19 +282,9 @@
                                         <div class="logo">
                                             <a href="index.html"><img src="images/logo-web-iaci-footer.png" alt=""/></a>
                                         </div>
-                                        <div class="text">164 / 15 Chonburi, Thailand</div>
+                                        <div class="text">66 / 6 PONG SUB DISTRICT, BANGLAMUNG, CHONBURI 20150</div>
                                         <ul class="list-style-one">
-                                            <li><span>Phone:</span> 063-xxx-xxxx</li>
-                                            <li><span>Email:</span> admin@iaci-th.com</li>
-                                            <li><span>Working Hours:</span> Mon - Fri: 9am - 6pm</li>
-                                        </ul>
-                                        <!--Social Icon One-->
-                                        <ul class="social-icon-one">
-                                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-vimeo"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                            <li><span>Working Office:</span> Mon - Fri: 9am - 7pm</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -212,7 +298,7 @@
                 <div class="auto-container text-center">
                     <div class="row clearfix">
                         <div class="column col-md-12 col-sm-12 col-xs-12">
-                            <div class="copyright">Copyrights &copy; 2018 INDEPENDENT AUDIT & CLAIM INSPECTORAT. All Rights Reserved.</div>
+                            <div class="copyright">Copyrights &copy; 2018 INDEPENDENT AUDIT & CLAIM INSPECTORAT CO, LTD. All Rights Reserved.</div>
                         </div>
                     </div>
                 </div>
